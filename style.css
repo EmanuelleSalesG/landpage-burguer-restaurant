@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.368);
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+span{
+    color: red;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.slogo{
+    font-size: 40px;
+}
+
+.logo{
+    font-family: 'Eczar';
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;   
+}
+
+.nav-item{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.nav-item a:hover{
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.intro-image img{
+    width: 500px;
+    
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px 50px 200px;
+    width: 80%;
+}
+
+.intro-title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.intro-title h1{
+    font-size: 65px;
+    color: black;
+    letter-spacing: -2px;
+    line-height: 50px;
+    padding: 20px;
+    
+}
+
+.intro-title p{
+    padding: 0 20px;
+    
+}
+
+.button-intro{
+    padding: 12px 30px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.button-intro:hover{
+    background-color: rgb(244, 27, 27);
+}
+
+.dbutton-intro{
+    margin: 40px 17px;
+}
+
+p{
+    width: 75%;
+    font-size: 18px;
+}
